@@ -5428,7 +5428,7 @@ textarea.form-control-lg {
 /*Snackbar*/
 #snackbar {
   visibility: hidden;
-  min-width: 111px;
+  min-width: 110px;
   margin-left: -120px;
   background-color: #333;
   color: #fff;
@@ -5441,6 +5441,7 @@ textarea.form-control-lg {
   bottom: 30px;
   font-size: 12px;
 }
+
 
 #snackbar.show {
   visibility: visible;
