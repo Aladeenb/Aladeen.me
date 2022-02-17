@@ -5,3 +5,9 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+function myFunction() {
+  var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
