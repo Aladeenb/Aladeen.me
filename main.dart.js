@@ -54619,7 +54619,7 @@ r=A.a3H(75,228,255,1)
 q=A.a3H(4,31,96,1)
 p=t.E
 o=A.a([A.Xc(A.iB("Hello",m,m,A.iC(m,m,m,m,m,m,m,m,m,m,m,14,m,m,m,m,!0,m,m,m,m,m,m,m,m),m)),A.Xc(A.iB("Projects",m,m,A.iC(m,m,m,m,m,m,m,m,m,m,m,14,m,m,m,m,!0,m,m,m,m,m,m,m,m),m)),A.Xc(A.iB("Writing",m,m,A.iC(m,m,m,m,m,m,m,m,m,m,m,14,m,m,m,m,!0,m,m,m,m,m,m,m,m),m)),A.Xc(A.iB("Connect",m,m,A.iC(m,m,m,m,m,m,m,m,m,m,m,14,m,m,m,m,!0,m,m,m,m,m,m,m,m),m))],p)
-return new A.qW(4,new A.un(new A.qi(new A.v3(o,!0,new A.aW(0,5,0,0),s,5,B.rT,r,q,m),B.j,B.kj,!0,new A.HJ(m,m,1/0,56),m),A.uU(B.bf,A.a([new A.v5(A.a([A.ey(m,A.uU(B.bf,A.a([A.a4c(A.a([A.ey(m,A.ey(B.ai,new A.dg(B.tN,A.qB(new A.dg(B.tL,A.a4c(B.zf),m),m,m),m),m,m,m,m,m,m),m,m,m,new A.aW(10,20,10,10),m,m)],p))],p),B.bM),m,m,m,m,m,m),A.ey(m,A.iB("no projects published yet.",m,m,m,m),m,m,m,new A.aW(10,40,40,10),m,m),A.ey(m,A.iB("no writings published yet.",m,m,m,m),m,m,m,new A.aW(10,40,40,10),m,m),A.ey(m,A.ey(m,new A.dg(B.tM,A.ey(B.ai,new A.dg(B.tK,A.a4c(A.a([A.Mc(A.QR(n.gS2(),A.iB("LinkedIn",m,m,m,B.aR))),A.Mc(A.QR(n.gS5(),A.iB("Github",m,m,m,B.aR))),A.Mc(A.QR(n.gS4(),A.iB("Stack Exchange",m,m,m,B.aR))),A.Mc(A.QR(n.gS3(),A.iB("Medium",m,m,m,B.aR)))],p)),m),m,m,m,m,m,m),m),m,m,m,m,m,m),m,m,m,new A.aW(20,20,10,10),m,m)],p),m)],p),B.bM),m),m)},
+return new A.qW(4,new A.un(new A.qi(new A.v3(o,!0,new A.aW(0,5,0,0),s,5,B.rT,r,q,m),B.j,B.kj,!0,new A.HJ(m,m,1/0,56),m),A.uU(B.bf,A.a([new A.v5(A.a([A.ey(m,A.uU(B.bf,A.a([A.a4c(A.a([A.ey(m,A.ey(B.ai,new A.dg(B.tN,A.qB(new A.dg(B.tM,A.a4c(B.zf),m),m,m),m),m,m,m,m,m,m),m,m,m,new A.aW(10,20,10,10),m,m)],p))],p),B.bM),m,m,m,m,m,m),A.ey(m,A.iB("no projects published yet.",m,m,m,m),m,m,m,new A.aW(10,40,40,10),m,m),A.ey(m,A.iB("no writings published yet.",m,m,m,m),m,m,m,new A.aW(10,40,40,10),m,m),A.ey(m,A.ey(m,new A.dg(B.tL,A.ey(B.ai,new A.dg(B.tK,A.a4c(A.a([A.Mc(A.QR(n.gS2(),A.iB("LinkedIn",m,m,m,B.aR))),A.Mc(A.QR(n.gS5(),A.iB("Github",m,m,m,B.aR))),A.Mc(A.QR(n.gS4(),A.iB("Stack Exchange",m,m,m,B.aR))),A.Mc(A.QR(n.gS3(),A.iB("Medium",m,m,m,B.aR)))],p)),m),m,m,m,m,m,m),m),m,m,m,m,m,m),m,m,m,new A.aW(20,20,10,10),m,m)],p),m)],p),B.bM),m),m)},
 o8(){var s=0,r=A.a1(t.z)
 var $async$o8=A.a2(function(a,b){if(a===1)return A.Z(b,r)
 while(true)switch(s){case 0:s=2
@@ -56317,9 +56317,9 @@ B.rf=new A.Cz(null)
 B.tJ=new A.yQ(B.rf)
 B.jT=new A.av(40,40,40,40)
 B.tK=new A.av(50,160,0,350)
-B.tL=new A.av(50,300,0,350)
-B.tM=new A.av(50,410,0,350)
-B.tN=new A.av(50,410,0,450)
+B.tL=new A.av(50,410,0,350)
+B.tM=new A.av(50,450,0,350)
+B.tN=new A.av(50,770,0,450)
 B.jU=new A.av(56,56,56,56)
 B.jV=new A.av(96,96,96,96)
 B.jW=new A.av(1/0,1/0,1/0,1/0)
