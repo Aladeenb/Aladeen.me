@@ -1,6 +1,6 @@
 {
-    "name": "mywebsite",
-    "short_name": "mywebsite",
+    "name": "webiste",
+    "short_name": "webiste",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
