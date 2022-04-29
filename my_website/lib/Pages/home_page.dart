@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
       'https://ethereum.stackexchange.com/users/97072/laycodes';
 
   String _url_multiSigWallet =
-      'https://github.com/Aladeenb/Multi_Signature_wallet';
+      'https://github.com/Aladeenb/Multi-Signature-Wallet';
   @override
   Widget build(BuildContext context) {
     ThemeData(
