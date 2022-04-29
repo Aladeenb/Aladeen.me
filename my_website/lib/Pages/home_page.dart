@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:mailto/mailto.dart';
 
 class HomePage extends StatelessWidget {
   String _url_linkedin =
@@ -9,6 +10,9 @@ class HomePage extends StatelessWidget {
   String _url_medium = 'https://medium.com/@aladeen.btk';
   String _url_eth_overflow =
       'https://ethereum.stackexchange.com/users/97072/laycodes';
+
+  String _url_multiSigWallet =
+      'https://github.com/Aladeenb/Multi_Signature_wallet';
   @override
   Widget build(BuildContext context) {
     ThemeData(
@@ -88,73 +92,40 @@ class HomePage extends StatelessWidget {
                                         children: <Widget>[
                                           Center(
                                             child: Container(
-                                              //color: Colors.red,
-                                              child: Card(
-                                                color: Colors.blueGrey.shade50,
-                                                shape: RoundedRectangleBorder(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          0.0),
-                                                ),
-                                                shadowColor:
-                                                    Colors.blueGrey.shade50,
+                                              color: Colors.blueGrey.shade50,
+                                              child: ConstrainedBox(
+                                                constraints: BoxConstraints(
+                                                    maxHeight: 200),
+
+                                                //  shape: RoundedRectangleBorder(
+                                                //    borderRadius:
+                                                //        BorderRadius.circular(
+                                                //            0.0),
+                                                //  ),
+                                                //  shadowColor:
+                                                //      Colors.blueGrey.shade50,
                                                 child: ListTile(
                                                   contentPadding:
                                                       EdgeInsets.fromLTRB(
                                                           20, 10, 20, 10),
-                                                  title: Text('I am',
+                                                  title: Text('Overview',
                                                       textAlign:
                                                           TextAlign.center,
                                                       style: TextStyle(
                                                         fontWeight:
                                                             FontWeight.w100,
-                                                        fontSize: 30,
+                                                        fontSize: 18,
                                                         color: Colors.black87,
                                                       )),
                                                 ),
                                               ),
                                             ),
                                           ),
-                                          //Center(
-                                          //  child: Container(
-                                          //      child: Card(
-                                          //          child: Container(
-                                          //              decoration:
-                                          //                  const BoxDecoration(
-                                          //                gradient:
-                                          //                    LinearGradient(
-                                          //                  begin: Alignment
-                                          //                      .topLeft,
-                                          //                  end: Alignment
-                                          //                      .bottomRight, // 10% of the width, so there are ten blinds.
-                                          //                  colors: <Color>[
-                                          //                    Colors.blueAccent,
-                                          //                    Colors
-                                          //                        .greenAccent,
-                                          //                  ], // red to yellow
-                                          //                  tileMode: TileMode
-                                          //                      .repeated, // repeats the gradient over the canvas
-                                          //                ),
-                                          //              ),
-                                          //              child: ListTile(
-                                          //                title: Icon(
-                                          //                  Icons
-                                          //                      .school_outlined,
-                                          //                  color:
-                                          //                      Colors.white70,
-                                          //                ),
-                                          //                onTap: () {},
-                                          //              )))),
-                                          //),
                                           Center(
                                             child: Container(
-                                              child: Card(
-                                                shape: RoundedRectangleBorder(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          1.0),
-                                                ),
-                                                clipBehavior: Clip.antiAlias,
+                                              child: ConstrainedBox(
+                                                constraints: BoxConstraints(
+                                                    maxHeight: 200),
                                                 child: ListTile(
                                                   contentPadding:
                                                       EdgeInsets.fromLTRB(
@@ -172,12 +143,15 @@ class HomePage extends StatelessWidget {
                                                     textAlign: TextAlign.left,
                                                     text: TextSpan(
                                                       text:
-                                                          "\nI'm pursuing a bachelor degree in Electronics, Information Technologies and telecommunication engineering. \nthird year (out of four).",
-                                                      style: TextStyle(
-                                                        fontWeight:
-                                                            FontWeight.w200,
-                                                        fontSize: 14,
-                                                      ),
+                                                          "\nI'm a third-year undergraduate student majoring in Electronics, Information and telecommunications Technologies engineering.",
+                                                      style:
+                                                          GoogleFonts.lexendExa(
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .normal,
+                                                              fontSize: 14,
+                                                              color: Colors
+                                                                  .black87),
                                                       children: const <
                                                           TextSpan>[
                                                         TextSpan(
@@ -198,12 +172,9 @@ class HomePage extends StatelessWidget {
                                           ),
                                           Center(
                                             child: Container(
-                                                //color: Colors.black,
-                                                child: Card(
-                                              shape: RoundedRectangleBorder(
-                                                borderRadius:
-                                                    BorderRadius.circular(1.0),
-                                              ),
+                                                child: ConstrainedBox(
+                                              constraints: BoxConstraints(
+                                                  maxHeight: 200),
                                               child: ListTile(
                                                 contentPadding:
                                                     EdgeInsets.fromLTRB(
@@ -221,11 +192,14 @@ class HomePage extends StatelessWidget {
                                                   text: TextSpan(
                                                     text:
                                                         "\nI'm studying the Ethereum ecosystem in-depth, currently focusing on smart-contract development.",
-                                                    style: TextStyle(
-                                                      fontWeight:
-                                                          FontWeight.w200,
-                                                      fontSize: 14,
-                                                    ),
+                                                    style:
+                                                        GoogleFonts.lexendExa(
+                                                            fontWeight:
+                                                                FontWeight
+                                                                    .normal,
+                                                            fontSize: 14,
+                                                            color:
+                                                                Colors.black87),
                                                     children: const <TextSpan>[
                                                       TextSpan(
                                                           text: '',
@@ -244,12 +218,9 @@ class HomePage extends StatelessWidget {
                                           ),
                                           Center(
                                             child: Container(
-                                              child: Card(
-                                                shape: RoundedRectangleBorder(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          1.0),
-                                                ),
+                                              child: ConstrainedBox(
+                                                constraints: BoxConstraints(
+                                                    maxHeight: 200),
                                                 child: ListTile(
                                                   contentPadding:
                                                       EdgeInsets.fromLTRB(
@@ -266,12 +237,15 @@ class HomePage extends StatelessWidget {
                                                   subtitle: RichText(
                                                     text: TextSpan(
                                                       text:
-                                                          "\nI participate on CTF competitions with my lovely diverse squad and planning to pursue a master degree in cybersecurity.",
-                                                      style: TextStyle(
-                                                        fontWeight:
-                                                            FontWeight.w200,
-                                                        fontSize: 14,
-                                                      ),
+                                                          "\nI participate on CTF competitions with my lovely diverse squad and plan to pursue a master degree in cybersecurity.",
+                                                      style:
+                                                          GoogleFonts.lexendExa(
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .normal,
+                                                              fontSize: 14,
+                                                              color: Colors
+                                                                  .black87),
                                                       children: const <
                                                           TextSpan>[
                                                         TextSpan(
@@ -299,14 +273,31 @@ class HomePage extends StatelessWidget {
                     )),
                 Container(
                   color: Colors.blueGrey.shade50,
-                  child: Center(
-                      child: Container(
-                    child: Text(
-                      'no projects published yet.',
-                    ),
-                  )
-                      //margin: EdgeInsets.fromLTRB(10, 40, 40, 10),
-                      ),
+                  child: Container(
+                      margin: EdgeInsets.fromLTRB(10, 40, 10, 10),
+                      child: Center(
+                          child: ConstrainedBox(
+                              constraints:
+                                  BoxConstraints(maxWidth: 800, minHeight: 400),
+                              child: ListView(
+                                children: <Widget>[
+                                  Card(
+                                      child: ListTile(
+                                    title: Text(
+                                      'Multi-signature Wallet',
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    subtitle: Text(
+                                      'basic multi-signature wallet for ethereum.',
+                                      style:
+                                          GoogleFonts.lexendDeca(fontSize: 12),
+                                    ),
+                                    onTap: _launchURL_multiSigWallet,
+                                  ))
+                                ],
+                              )))),
                 ),
                 Container(
                   color: Colors.blueGrey.shade50,
@@ -328,13 +319,49 @@ class HomePage extends StatelessWidget {
                       ),
                       Center(
                           child: Container(
-                        child: Text('social:'),
+                        child: Text(
+                          'e-mail',
+                          style: GoogleFonts.robotoMono(
+                              color: Colors.black54, fontSize: 12),
+                        ),
                       )),
+                      Container(
+                        child: ConstrainedBox(
+                          constraints: BoxConstraints(maxWidth: 300),
+                          child: Card(
+                            color: Colors.blueGrey.shade50,
+                            elevation: 0,
+                            child: ListTile(
+                              title: Text(
+                                'aladeen.btk@gmail.com',
+                                style: TextStyle(
+                                  fontSize: 22,
+                                ),
+                              ),
+                              onTap: launchMailto,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Container(
+                        padding: EdgeInsets.only(top: 20),
+                      ),
                       Center(
                           child: Container(
-                        margin: const EdgeInsets.symmetric(vertical: 1),
+                        child: Text(
+                          'social',
+                          style: GoogleFonts.robotoMono(
+                              color: Colors.black54, fontSize: 12),
+                        ),
+                      )),
+                      Container(
+                        padding: EdgeInsets.only(top: 10),
+                      ),
+                      Center(
+                          child: Container(
+                        //margin: const EdgeInsets.symmetric(vertical: 1),
                         width: 360.0,
-                        height: 25.0,
+                        height: 20.0,
                         child: ListView(
                           scrollDirection: Axis.horizontal,
                           children: <Widget>[
@@ -507,7 +534,7 @@ class HomePage extends StatelessWidget {
                                 ))
                           ],
                         ),
-                      ))
+                      )),
                     ],
                   ),
                 )
@@ -534,5 +561,23 @@ class HomePage extends StatelessWidget {
   void _launchURL_overflow() async {
     if (!await launch(_url_eth_overflow))
       throw 'Could not launch $_url_eth_overflow';
+  }
+
+  void _launchURL_multiSigWallet() async {
+    if (!await launch(_url_multiSigWallet))
+      throw 'Could not launch $_url_multiSigWallet';
+  }
+
+  launchMailto() async {
+    final mailtoLink = Mailto(
+      to: ['aladeen.btk@gmail.com'],
+
+      //subject: 'mailto example subject',
+      //body: 'mailto example body',
+    );
+    // Convert the Mailto instance into a string.
+    // Use either Dart's string interpolation
+    // or the toString() method.
+    await launch('$mailtoLink');
   }
 }

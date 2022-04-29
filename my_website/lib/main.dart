@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import 'Pages/home_page.dart';
+import 'splash_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,7 +9,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Aladeen",
-      home: HomePage(),
+      home: SplashScreen(),
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         // Define the default brightness and colors.
