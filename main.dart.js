@@ -55865,8 +55865,8 @@ return A.X($async$ou,r)},
 ot(){var s=0,r=A.Y(t.z)
 var $async$ot=A.Z(function(a,b){if(a===1)return A.V(b,r)
 while(true)switch(s){case 0:s=2
-return A.S(A.kD("https://github.com/Aladeenb/Multi_Signature_wallet"),$async$ot)
-case 2:if(!b)throw A.c("Could not launch https://github.com/Aladeenb/Multi_Signature_wallet")
+return A.S(A.kD("https://github.com/Aladeenb/Multi-Signature-Wallet"),$async$ot)
+case 2:if(!b)throw A.c("Could not launch https://github.com/Aladeenb/Multi-Signature-Wallet")
 return A.W(null,r)}})
 return A.X($async$ot,r)},
 q0(){var s=0,r=A.Y(t.z)
