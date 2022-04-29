@@ -144,11 +144,11 @@ class HomePage extends StatelessWidget {
                                                     text: TextSpan(
                                                       text:
                                                           "\nI'm a third-year undergraduate student majoring in Electronics, Information and telecommunications Technologies engineering.",
-                                                      style:
-                                                          GoogleFonts.lexendExa(
+                                                      style: GoogleFonts
+                                                          .lexendDeca(
                                                               fontWeight:
                                                                   FontWeight
-                                                                      .normal,
+                                                                      .w300,
                                                               fontSize: 14,
                                                               color: Colors
                                                                   .black87),
@@ -193,10 +193,9 @@ class HomePage extends StatelessWidget {
                                                     text:
                                                         "\nI'm studying the Ethereum ecosystem in-depth, currently focusing on smart-contract development.",
                                                     style:
-                                                        GoogleFonts.lexendExa(
+                                                        GoogleFonts.lexendDeca(
                                                             fontWeight:
-                                                                FontWeight
-                                                                    .normal,
+                                                                FontWeight.w300,
                                                             fontSize: 14,
                                                             color:
                                                                 Colors.black87),
@@ -238,11 +237,11 @@ class HomePage extends StatelessWidget {
                                                     text: TextSpan(
                                                       text:
                                                           "\nI participate on CTF competitions with my lovely diverse squad and plan to pursue a master degree in cybersecurity.",
-                                                      style:
-                                                          GoogleFonts.lexendExa(
+                                                      style: GoogleFonts
+                                                          .lexendDeca(
                                                               fontWeight:
                                                                   FontWeight
-                                                                      .normal,
+                                                                      .w300,
                                                               fontSize: 14,
                                                               color: Colors
                                                                   .black87),
