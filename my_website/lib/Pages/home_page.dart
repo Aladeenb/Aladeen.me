@@ -4,15 +4,28 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mailto/mailto.dart';
 
 class HomePage extends StatelessWidget {
-  String _url_linkedin =
+  final String _url_linkedin =
       'https://www.linkedin.com/in/ala-eddine-battikh-b60616211/';
-  String _url_github = 'https://github.com/Aladeenb';
-  String _url_medium = 'https://medium.com/@aladeen.btk';
-  String _url_eth_overflow =
+  final String _url_github = 'https://github.com/Aladeenb';
+  final String _url_medium = 'https://medium.com/@aladeen.btk';
+  final String _url_eth_overflow =
       'https://ethereum.stackexchange.com/users/97072/laycodes';
 
-  String _url_multiSigWallet =
+  final String _url_multiSigWallet =
       'https://github.com/Aladeenb/Multi-Signature-Wallet';
+
+  final String _url_credit_card_fraud_prediction =
+      'https://github.com/Aladeenb/credit-card-fraud-prediction';
+  final String _url_guess_the_number =
+      'https://github.com/Aladeenb/guess-the-number';
+  final String _url_digital_chess_timer =
+      'https://github.com/Aladeenb/digital-chess-timer';
+  final String _url_basic_linux_shell =
+      'https://github.com/Aladeenb/basic-linux-shell';
+  final String _url_rfid_attendance_system =
+      'https://github.com/Aladeenb/RFID-attendance-system';
+  final String _url_game_engine = 'https://github.com/LOH-puzik/Game-Engine';
+
   @override
   Widget build(BuildContext context) {
     ThemeData(
@@ -294,7 +307,98 @@ class HomePage extends StatelessWidget {
                                           GoogleFonts.lexendDeca(fontSize: 12),
                                     ),
                                     onTap: _launchURL_multiSigWallet,
-                                  ))
+                                  )),
+                                  Card(
+                                      child: ListTile(
+                                    title: Text(
+                                      'Credit card fraud prediction',
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    subtitle: Text(
+                                      'machine learning model to predict credit cards frauds.',
+                                      style:
+                                          GoogleFonts.lexendDeca(fontSize: 12),
+                                    ),
+                                    onTap:
+                                        _launchURL_credit_card_fraud_prediction,
+                                  )),
+                                  Card(
+                                      child: ListTile(
+                                    title: Text(
+                                      'Guess the number',
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    subtitle: Text(
+                                      'mini-game in assembler',
+                                      style:
+                                          GoogleFonts.lexendDeca(fontSize: 12),
+                                    ),
+                                    onTap: _launchURL_guess_the_number,
+                                  )),
+                                  Card(
+                                      child: ListTile(
+                                    title: Text(
+                                      'Chess digital timer',
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    subtitle: Text(
+                                      'simulation of a chess timer using Logisim',
+                                      style:
+                                          GoogleFonts.lexendDeca(fontSize: 12),
+                                    ),
+                                    onTap: _launchURL_digital_chess_timer,
+                                  )),
+                                  Card(
+                                      child: ListTile(
+                                    title: Text(
+                                      'Linux shell',
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    subtitle: Text(
+                                      'linux shell with different functionalities created in C',
+                                      style:
+                                          GoogleFonts.lexendDeca(fontSize: 12),
+                                    ),
+                                    onTap: _launchURL_basic_linux_shell,
+                                  )),
+                                  Card(
+                                      child: ListTile(
+                                    title: Text(
+                                      'RFID attendance system',
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    subtitle: Text(
+                                      'attendance system with RFID technology',
+                                      style:
+                                          GoogleFonts.lexendDeca(fontSize: 12),
+                                    ),
+                                    onTap: _launchURL_rfid_attendance_system,
+                                  )),
+                                  Card(
+                                      child: ListTile(
+                                    title: Text(
+                                      'Game engine + scene',
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    subtitle: Text(
+                                      'a 3D map created from a self-made game engine',
+                                      style:
+                                          GoogleFonts.lexendDeca(fontSize: 12),
+                                    ),
+                                    onTap: _launchURL_game_engine,
+                                  )),
                                 ],
                               )))),
                 ),
@@ -565,6 +669,36 @@ class HomePage extends StatelessWidget {
   void _launchURL_multiSigWallet() async {
     if (!await launch(_url_multiSigWallet))
       throw 'Could not launch $_url_multiSigWallet';
+  }
+
+  void _launchURL_credit_card_fraud_prediction() async {
+    if (!await launch(_url_credit_card_fraud_prediction))
+      throw 'Could not launch $_url_credit_card_fraud_prediction';
+  }
+
+  void _launchURL_guess_the_number() async {
+    if (!await launch(_url_guess_the_number))
+      throw 'Could not launch $_url_guess_the_number';
+  }
+
+  void _launchURL_digital_chess_timer() async {
+    if (!await launch(_url_digital_chess_timer))
+      throw 'Could not launch $_url_digital_chess_timer';
+  }
+
+  void _launchURL_basic_linux_shell() async {
+    if (!await launch(_url_basic_linux_shell))
+      throw 'Could not launch $_url_basic_linux_shell';
+  }
+
+  void _launchURL_rfid_attendance_system() async {
+    if (!await launch(_url_rfid_attendance_system))
+      throw 'Could not launch $_url_rfid_attendance_system';
+  }
+
+  void _launchURL_game_engine() async {
+    if (!await launch(_url_game_engine))
+      throw 'Could not launch $_url_game_engine';
   }
 
   launchMailto() async {
